@@ -1,0 +1,291 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 5vh;
+}
+
+@media screen and (Max-width: 1000px) {
+  #app {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5vh;
+  }
+}
+
+.navi {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 5vh;
+}
+
+[alt="bann"] {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+[alt="formulaire"] {
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+[alt="nav"] {
+  max-width: 60%;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  right: 25%;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="nav"] {
+    max-width: 100%;
+  }
+}
+
+[alt="nav"]:hover {
+  max-width: 65%;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="nav"]:hover {
+    max-width: 110%;
+  }
+}
+
+[alt="img"] {
+  max-width: 100%;
+  margin-bottom: 5vh;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="img"] {
+    max-width: 100%;
+    margin-bottom: 20vh;
+  }
+}
+
+[alt="imgvav"] {
+  width: 100%;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="imgvav"] {
+    max-width: 100%;
+    margin-bottom: 20vh;
+  }
+}
+
+[alt="post"] {
+  max-width: 97%;
+  margin-bottom: 20vh;
+  margin-right: 5%;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="post"] {
+    max-width: 97%;
+    margin-bottom: 10vh;
+    margin-right: 0;
+    padding-right: 1.5%;
+  }
+}
+
+[alt="imgfin"] {
+  max-width: 100%;
+  margin-bottom: 2vh;
+}
+
+[alt="imgptit"] {
+  max-width: 100%;
+  margin-bottom: 2vh;
+}
+
+[alt="imgcom"] {
+  max-width: 100%;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="imgcom"] {
+    padding-left: 2%;
+  }
+}
+
+[alt="fond"] {
+  max-width: 55%;
+  position: absolute;
+  top: 22.5%;
+  left: 22.5%;
+  z-index: 4;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="fond"] {
+    max-width: 100%;
+    left: 0;
+    top: 33%;
+  }
+}
+
+[alt="porte1"] {
+  width: 8.85%;
+  position: absolute;
+  top: 29.8%;
+  left: 54.4%;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="porte1"] {
+    width: 16%;
+    top: 36.2%;
+    left: 59%;
+  }
+}
+
+[alt="porte2"] {
+  width: 9.2%;
+  position: absolute;
+  top: 29.8%;
+  left: 36.6%;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="porte2"] {
+    width: 16.7%;
+    top: 36.2%;
+    left: 25.8%;
+  }
+}
+
+[alt="mémé"] {
+  max-width: 20%;
+  position: absolute;
+  top: 26%;
+  left: 40%;
+  z-index: 1;
+}
+
+@media screen and (Max-width: 1000px) {
+  [alt="mémé"] {
+    max-width: 36.5%;
+    top: 34.5%;
+    left: 32.5%;
+  }
+}
+
+.un {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (Max-width: 1000px) {
+  .un {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.deux {
+  margin: 0 auto;
+  width: 70%;
+}
+
+@media screen and (Max-width: 1000px) {
+  .deux {
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+
+.noscro {
+  width: 97%;
+}
+
+.fin {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.large {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.scroll {
+  height: 39%;
+  width: 100%;
+  overflow-y: scroll;
+  display: inline-block;
+  position: relative;
+}
+
+.menu {
+  background-image: url("../../resources/js/views/assets/img/chapitre1/fond hardpaper.png");
+  margin: 0 auto;
+  padding-top: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 50%;
+}
+
+@media screen and (Max-width: 1000px) {
+  .menu {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.contenu {
+  width: 50%;
+  background-image: url("../../resources/js/views/assets/img/chapitre1/fond hardpaper.png");
+  margin: 0 auto;
+  padding-bottom: 5vh;
+  background-size: 100% auto;
+}
+
+.contenu ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.contenu ::-webkit-scrollbar {
+  width: 3%;
+}
+
+.contenu ::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+.contenu ::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+@media screen and (Max-width: 1000px) {
+  .contenu {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.mamyContainer {
+  width: 90vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */
