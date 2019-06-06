@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::post('/home/comment/store', 'CommentaireController@store')->name('storeComment');
 
@@ -30,6 +30,8 @@ Route::get('chapitres/{id}', 'ChapitreController@show')->name('showChapitre');
 Route::delete('/home/commentaire/delete/{id}','CommentaireController@destroy')->name('deleteComment');
 
 Route::put('home/comment/update/{id}','CommentaireController@update')->name('updateComment');
+
+Route::put('home/user/update/{id}','UserController@update')->name('updateUser');
 
 Route::delete('/home/commentaire/delete/{id}','CommentaireController@destroy')->name('deleteComment');
 

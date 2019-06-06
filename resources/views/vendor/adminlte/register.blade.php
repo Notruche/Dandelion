@@ -6,14 +6,16 @@
      <img src="{{asset('images/formulaire inscription.png')}}" alt="formulaire" style="z-index: 0">
      <div class="register-box">
 
-        <div class="register-box-body">
+        <div class="register-box-body mb-4">
                 <form action="{{route('storeUser')}}" method="POST">
                         {!! csrf_field() !!}
 
-                        <div class="row" style="position: absolute; top:2.6%; width:40.7%;left:55.75%;margin:0">
-                              <div onclick="up()" class="col-12 d-flex justify-content-center">
-                                  <img src="{{asset('images/flèchehautnoire.png')}}" alt="" style="max-width:10%">
-                              </div>
+                        <div class="row " style="position: absolute; top:2.6%; width:40.7%;left:55.75%;margin:0">
+                              <div onclick="up()" class="col-12 justify-content-center container-fluid">
+                                <div class="position-relative" style="height:100%;margin-bottom:14%">
+                                  <img src="{{asset('images/flèchehautnoire.png')}}" alt="" style="max-width:10%;position:absolute;left:0;right:0;margin:auto">
+                                </div>
+                                </div>
                             <div onclick="left()" class="col-2 p-0">
                                 <div class="position-relative" style="height:100%">
                                 <img src="{{asset('images/flèchegauchenoire.png')}}" alt="" style="max-width:100%;position:absolute;top:0;bottom:0;margin:auto">
@@ -29,9 +31,11 @@
                                 <img src="{{asset('images/flèchedroitenoire.png')}}" alt="" style="max-width:100%;position:absolute;top:0;bottom:0;margin:auto">
                                 </div>
                             </div>
-                            <div onclick="down()" class="col-12 d-flex justify-content-center">
-                                <img src="{{asset('images/flèchebasnoire.png')}}" alt="" style="max-width:10%">
-                            </div>
+                            <div onclick="down()" class="col-12 justify-content-center container-fluid">
+                              <div class="position-relative" style="height:100%">
+                                <img src="{{asset('images/flèchebasnoire.png')}}" alt="" style="max-width:10%;position:absolute;left:0;right:0;margin:auto">
+                              </div>
+                              </div>
                             <input type="hidden" value="images/chien.png" id="photo" name="profil">
                             <input type="hidden" value="images/bleu.png" id="back" name="fond">
                           </div>
@@ -92,9 +96,9 @@
         <!-- /.form-box -->
     </div><!-- /.register-box -->
 </div>
-<div class="auth-links">
-    <a href="{{ url(config('adminlte.login_url', 'login')) }}"
-       class="text-center">J'ai déjà un compte !</a>
+<div class="auth-links d-flex justify-content-center">
+    <h2 style="font-size:150%"><a href="{{ url(config('adminlte.login_url', 'login')) }}"
+       class="text-center">J'ai déjà un compte !</a></h2>
 </div>
     </div>
     <script >

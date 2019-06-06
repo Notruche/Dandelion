@@ -60,7 +60,7 @@
         style="margin-bottom:5%"
       >
 
-        <div class="col-10 bg-light" style="margin-top: 20%"><h1 id="com" class="text-center">COMMENTAIRES :</h1>
+        <div class="col-12 bg-light" style="margin-top: 20%"><h1 id="com" class="text-center" style=";font-size:180%;margin-top:2%">COMMENTAIRES :</h1>
 
           @foreach($com as $item)
       <div class="row container-fluid border border-dark mb-3 ml-1 rounded">
@@ -70,7 +70,7 @@
         <img src="{{asset($item->user->fond)}}" alt="" style="max-width:60%;position:absolute;top:10%">
       </div>
         
-      <div class="col-10" style="min-height:100px"> 
+      <div class="col-10" style="min-height:120px"> 
 
         <p class="col-12 m-0"><b>{{$item->user->name}}</b> le {{$item->date}}</p>
 

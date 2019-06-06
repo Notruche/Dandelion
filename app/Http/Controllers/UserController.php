@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use App\Commentaire;
+use App\Http\Requests\StoreUser;
 use Auth;
 use Illuminate\Http\Request;
 
@@ -39,7 +40,7 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUser $request)
     {
         $new = new User;
         $new->name = $request->name;
@@ -48,6 +49,7 @@ class UserController extends Controller
         $new->profil = $request->profil;
         $new->fond = $request->fond;
         $new->save();
+        Auth::routes(['verify' => true]);
         Auth::loginUsingId($new->id); 
         return redirect()->route('home');
     }

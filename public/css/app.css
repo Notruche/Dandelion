@@ -10,7 +10,7 @@ body {
   padding-top: 5vh;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   #app {
     margin: 0 auto;
     width: 100%;
@@ -21,6 +21,22 @@ body {
 .navi {
   background-color: rgba(0, 0, 0, 0.4);
   padding-bottom: 5vh;
+}
+
+.texteprofil {
+  font-size: 200%;
+}
+
+@media screen and (Max-width: 1024px) {
+  .texteprofil {
+    font-size: 150%;
+  }
+}
+
+@media screen and (Max-width: 1024px) and (Max-width: 425px) {
+  .texteprofil {
+    font-size: 100%;
+  }
 }
 
 [alt=bann] {
@@ -38,25 +54,11 @@ body {
 
 [alt=nav] {
   max-width: 60%;
-  transition-property: width;
-  transition: 1s;
-  transition-timing-function: linear;
-  right: 25%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=nav] {
     max-width: 100%;
-  }
-}
-
-[alt=nav]:hover {
-  max-width: 65%;
-}
-
-@media screen and (Max-width: 1000px) {
-  [alt=nav]:hover {
-    max-width: 110%;
   }
 }
 
@@ -65,7 +67,7 @@ body {
   margin-bottom: 5vh;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=img] {
     max-width: 100%;
     margin-bottom: 20vh;
@@ -76,7 +78,7 @@ body {
   width: 100%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=imgvav] {
     max-width: 100%;
     margin-bottom: 20vh;
@@ -89,7 +91,7 @@ body {
   margin-right: 5%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=post] {
     max-width: 97%;
     margin-bottom: 10vh;
@@ -112,7 +114,7 @@ body {
   max-width: 100%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=imgcom] {
     padding-left: 2%;
   }
@@ -126,7 +128,7 @@ body {
   z-index: 4;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=fond] {
     max-width: 100%;
     left: 0;
@@ -143,7 +145,7 @@ body {
   z-index: 2;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=porte1] {
     width: 16%;
     top: 36.2%;
@@ -160,7 +162,7 @@ body {
   z-index: 2;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=porte2] {
     width: 16.7%;
     top: 36.2%;
@@ -176,7 +178,7 @@ body {
   z-index: 1;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   [alt=mémé] {
     max-width: 36.5%;
     top: 34.5%;
@@ -189,7 +191,7 @@ body {
   width: 100%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   .un {
     margin: 0 auto;
     width: 100%;
@@ -201,7 +203,7 @@ body {
   width: 70%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   .deux {
     margin: 0 auto;
     width: 85%;
@@ -241,7 +243,7 @@ body {
   width: 50%;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   .menu {
     margin: 0 auto;
     width: 100%;
@@ -274,7 +276,7 @@ body {
   background: grey;
 }
 
-@media screen and (Max-width: 1000px) {
+@media screen and (Max-width: 1024px) {
   .contenu {
     margin: 0 auto;
     width: 100%;

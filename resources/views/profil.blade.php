@@ -6,9 +6,21 @@
             <img src="{{asset('images/profil.png')}}" alt="formulaire" style="z-index: 0">
             <img src="{{asset($user->profil)}}" alt="" style="top:7.8%; width:27.2%;left:62.5%;position:absolute;z-index:3">
             <img src="{{asset($user->fond)}}" alt="" style="top:7.8%; width:27.2%;left:62.5%;position:absolute">
-              <h3 class="position-absolute" style="top:49%; left:55%">{{$user->name}}</h3>
-            <h3 class="position-absolute" style="top:59%; left:30%">{{$user->email}}</h3>
-            <h3 class="position-absolute" style="top:79%; left:30%">{{$user->date}}</h3>
+            <h3 class="position-absolute texteprofil" style="top:47%; left:45%">{{$user->name}}</h3>
+            <button class="position-absolute" style="border:none;top:52%; left:45%" onclick="modif(this)" class="col-2">Modifier nom</button>
+            <h3 class="position-absolute texteprofil" style="top:58%; left:22%">{{$user->email}}</h3>
+
+            <form action="{{route('updateUser',['id'=>$user->id])}}" method="POST" enctype="multipart/form-data" class="d-none">
+                    @method('PUT')
+                      @csrf
+
+                      <input name="name" type="text" class="position-absolute" style="top:49%; left:55%; display:none">{{$user->name}}
+                  
+                      <button type="submit"> Enregistrer </button>
+        
+            </form>
+
+            <h3 class="position-absolute texteprofil" style="top:79%; left:30%">{{$user->date}}</h3>
 
             @if(config('adminlte.logout_method') == 'GET' || !config('adminlte.logout_method') && version_compare(\Illuminate\Foundation\Application::VERSION, '5.3.0', '<'))
             <a href="{{ url(config('adminlte.logout_url', 'auth/logout')) }}" class="position-absolute bg-light p-1" style="top:89%; left:40%">
