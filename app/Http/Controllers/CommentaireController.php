@@ -40,6 +40,7 @@ class CommentaireController extends Controller
         $new = new Commentaire;
         $new->content = $request->content;
         $new->user_id = Auth::id();
+        $new->chapitre_id = $request->chapitre_id;
         $new->date = Carbon::now()->format('d M Y');;
         $new->save(); 
         return back();

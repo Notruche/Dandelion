@@ -5,52 +5,58 @@
           style="margin-bottom:5%"
         >
           <div class="col-2" style="position:relative">
-            <a href>
+              <a href="{{route('showChapitre',['id'=> 1])}}">
               <img src="{{asset('images/1er épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
           <div class="col-2" style="position:relative">
-            <a href>
+              <a href="{{route('showChapitre',['id'=> 1])}}">
               <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
           <div class="col-2" style="position:relative">
-            <a href>
+              <a href="{{route('showChapitre',['id'=> 2])}}">
               <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
           <div class="col-2" style="position:relative">
-            <a href>
+              <a href="{{route('showChapitre',['id'=> 2])}}">
               <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
         </div>
         <section class="chapitres mt-2">
           <div id="app">
+              @if($chapt->num=="1")
               <chapt1>
               </chapt1>
+              @endif
+              @if($chapt->num=="2")
+              <chapt2>
+              </chapt2>
+              @endif
       </div>
         </section>
         <div class="row d-flex justify-content-center mt-5 pt-2 container-fluid mr-0 ml-0 mb-5">
-              <div class="col-2" style="position:relative">
-            <a href>
-              <img src="{{asset('images/1er épisode.png')}}" alt="nav" style="position:absolute">
-            </a>
-          </div>
           <div class="col-2" style="position:relative">
-            <a href>
-              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
-            </a>
-          </div>
-          <div class="col-2" style="position:relative">
-            <a href>
-              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
-            </a>
-          </div>
-          <div class="col-2" style="position:relative">
-            <a href>
-              <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
-            </a>
+            <a href="{{route('showChapitre',['id'=> 1])}}">
+            <img src="{{asset('images/1er épisode.png')}}" alt="nav" style="position:absolute">
+          </a>
+        </div>
+        <div class="col-2" style="position:relative">
+            <a href="{{route('showChapitre',['id'=> 1])}}">
+            <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
+          </a>
+        </div>
+        <div class="col-2" style="position:relative">
+            <a href="{{route('showChapitre',['id'=> 2])}}">
+            <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
+          </a>
+        </div>
+        <div class="col-2" style="position:relative">
+            <a href="{{route('showChapitre',['id'=> 2])}}">
+            <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
+          </a>
           </div>
         </div>
 
@@ -60,10 +66,11 @@
         style="margin-bottom:5%"
       >
 
-        <div class="col-12 bg-light" style="margin-top: 20%"><h1 id="com" class="text-center" style=";font-size:180%;margin-top:2%">COMMENTAIRES :</h1>
+        <div class="col-12 text-white" style="margin-top: 20%">
+          <img src="{{asset('images/commentaires.png')}}" style="max-width:100%">
 
           @foreach($com as $item)
-      <div class="row container-fluid border border-dark mb-3 ml-1 rounded">
+      <div class="row container-fluid border border-white mb-3 ml-1 rounded">
 
       <div class="col-2 position-relative">
         <img src="{{asset($item->user->profil)}}" alt="" style="max-width:60%;position:absolute;top:10%;z-index:3">
@@ -119,6 +126,8 @@
                 <label for="content"></label>
                 <textarea style="max-height: 200px" type="text"
                   class="form-control" name="content" aria-describedby="helpId" placeholder="Écrivez un commentaire !"></textarea>
+                  <input type="hidden"
+            class="form-control" name="chapitre_id" aria-describedby="helpId" value="{{$chapt->id}}">
               </div>
         
             <button type="submit"> Envoyer </button>

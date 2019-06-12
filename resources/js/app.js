@@ -43,15 +43,21 @@ Vue.use(VueRouter)
 Vue.use(KsVueScrollmagic)
 
 import Chapt1 from './views/chapters/chapt1'
+import Chapt2 from './views/chapters/chapt2'
 import '../../public/css/app.css'
 
 const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/',
-            name: 'home',
+            path: 'chapitres/1',
+            name: 'chapt1',
             component: Chapt1
+        },
+        {
+            path: 'chapitres/2',
+            name: 'chapt2',
+            component: Chapt2
         },
     ],
 });
@@ -61,6 +67,13 @@ const chapt1 = new Vue({
     components: { Chapt1 },
     router,
 });
+
+const chapt2 = new Vue({
+    el: '#app',
+    components: { Chapt2 },
+    router,
+});
+
 
 
 

@@ -52,7 +52,7 @@ body {
 }
 
 [alt="nav"] {
-  max-width: 60%;
+  max-width: 90%;
 }
 
 @media screen and (Max-width: 1024px) {
@@ -185,6 +185,61 @@ body {
   }
 }
 
+.rodefond {
+  top: 18%;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (Max-width: 1024px) {
+  .rodefond {
+    top: 18%;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.rodeplan {
+  top: 18%;
+  left: 0;
+  z-index: 3;
+}
+
+@media screen and (Max-width: 1024px) {
+  .rodeplan {
+    top: 18%;
+    left: 0;
+    z-index: 3;
+  }
+}
+
+.rode {
+  top: 28%;
+  left: 15%;
+  max-width: 20%;
+  z-index: 2;
+}
+
+@media screen and (Max-width: 1024px) {
+  .rode {
+    max-width: 20%;
+    top: 28%;
+    left: 15%;
+  }
+}
+
+.rodecont {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+}
+
+@media screen and (Max-width: 1024px) {
+  .rodecont {
+    width: 100%;
+  }
+}
+
 .un {
   margin: 0 auto;
   width: 100%;
@@ -234,7 +289,8 @@ body {
 .menu {
   background-image: url("../../resources/js/views/assets/img/chapitre1/fond hardpaper.png");
   margin: 0 auto;
-  padding-top: 10vh;
+  margin-top: 1vh;
+  padding-top: 5vh;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 50%;
