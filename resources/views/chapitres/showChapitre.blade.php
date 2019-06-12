@@ -37,6 +37,20 @@
               @endif
       </div>
         </section>
+        @if($chapt->num=="2")
+        <div class="position-relative">
+        <img src="{{asset('images/sondage.png')}}" alt="imgfin">
+        <img onclick="check1(this)" class="box1" src="{{asset('images/box.png')}}" alt="" style="position:absolute;top:35%;left:10%;max-height:11%">
+        <img onclick="check2(this)" class="box2" src="{{asset('images/box.png')}}" alt="" style="position:absolute;top:50%;left:10%;max-height:11%">
+        <img onclick="check3(this)" class="box3" src="{{asset('images/box.png')}}" alt="" style="position:absolute;top:65%;left:10%;max-height:11%">
+        <img onclick="check4(this)" class="box4" src="{{asset('images/box.png')}}" alt="" style="position:absolute;top:80%;left:10%;max-height:11%">
+        <img src="{{asset('images/tir.png')}}" alt="" style="position:absolute;top:35%;left:20%;max-height:11%">
+        <img src="{{asset('images/chaise.png')}}" alt="" style="position:absolute;top:50%;left:20%;max-height:11%">
+        <img src="{{asset('images/chamboule.png')}}" alt="" style="position:absolute;top:65%;left:20%;max-height:11%">
+        <img src="{{asset('images/course.png')}}" alt="" style="position:absolute;top:80%;left:20%;max-height:11%">
+
+        </div>
+        @endif
         <div class="row d-flex justify-content-center mt-5 pt-2 container-fluid mr-0 ml-0 mb-5">
           <div class="col-2" style="position:relative">
             <a href="{{route('showChapitre',['id'=> 1])}}">
@@ -141,6 +155,39 @@
       </div>
 
       <script >
+
+      function check1(ele) {
+        document.querySelector(".box1").src="{{asset('images/box.png')}}"
+        document.querySelector(".box2").src="{{asset('images/box.png')}}"
+        document.querySelector(".box3").src="{{asset('images/box.png')}}"
+        document.querySelector(".box4").src="{{asset('images/box.png')}}"
+        ele.src="{{asset('images/boxcoché.png')}}"
+      }
+
+      function check2(ele) {
+        document.querySelector(".box1").src="{{asset('images/box.png')}}"
+        document.querySelector(".box2").src="{{asset('images/box.png')}}"
+        document.querySelector(".box3").src="{{asset('images/box.png')}}"
+        document.querySelector(".box4").src="{{asset('images/box.png')}}"
+        ele.src="{{asset('images/boxcoché.png')}}"
+      }
+
+      function check3(ele) {
+        document.querySelector(".box1").src="{{asset('images/box.png')}}"
+        document.querySelector(".box2").src="{{asset('images/box.png')}}"
+        document.querySelector(".box3").src="{{asset('images/box.png')}}"
+        document.querySelector(".box4").src="{{asset('images/box.png')}}"
+        ele.src="{{asset('images/boxcoché.png')}}"
+      }
+
+      function check4(ele) {
+        document.querySelector(".box1").src="{{asset('images/box.png')}}"
+        document.querySelector(".box2").src="{{asset('images/box.png')}}"
+        document.querySelector(".box3").src="{{asset('images/box.png')}}"
+        document.querySelector(".box4").src="{{asset('images/box.png')}}"
+        ele.src="{{asset('images/boxcoché.png')}}"
+      }
+
       function modif(ele) {
         ele.previousElementSibling.classList.remove("d-none")
         ele.previousElementSibling.previousElementSibling.classList.add("d-none")
