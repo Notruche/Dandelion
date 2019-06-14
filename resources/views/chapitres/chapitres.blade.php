@@ -1,6 +1,6 @@
 @include('header')
     <div class="pt-1 contenu">
-        <div class="row container-fluid d-flex justify-content-space-between">
+        <div class="row container-fluid d-flex justify-content-center">
 
         @foreach($chapt as $item)
 
