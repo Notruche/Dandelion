@@ -10,17 +10,31 @@
             </a>
           </div>
           <div class="col-2" style="position:relative">
-              <a href="{{route('showChapitre',['id'=> 1])}}">
+            @if($chapt->num=="1")
+            <a href="{{route('showChapitre',['id'=> 1])}}">
               <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
+            @endif
+            @if($chapt->num!=="1")
+            <a href="{{route('showChapitre',['id'=> $chapt->id -1])}}">
+              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
+            </a>
+            @endif
           </div>
           <div class="col-2" style="position:relative">
-              <a href="{{route('showChapitre',['id'=> 2])}}">
+            @if($chapt->num=="3")
+            <a href="{{route('showChapitre',['id'=> 3])}}">
               <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
+            @endif
+            @if($chapt->num!=="3")
+            <a href="{{route('showChapitre',['id'=> $chapt->id +1])}}">
+              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
+            </a>
+            @endif
           </div>
           <div class="col-2" style="position:relative">
-              <a href="{{route('showChapitre',['id'=> 2])}}">
+              <a href="{{route('showChapitre',['id'=> 3])}}">
               <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
@@ -34,6 +48,10 @@
               @if($chapt->num=="2")
               <chapt2>
               </chapt2>
+              @endif
+              @if($chapt->num=="3")
+              <chapt3>
+              </chapt3>
               @endif
       </div>
         </section>
@@ -68,7 +86,7 @@
           </a>
         </div>
         <div class="col-2" style="position:relative">
-            <a href="{{route('showChapitre',['id'=> 2])}}">
+            <a href="{{route('showChapitre',['id'=> 3])}}">
             <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
           </a>
           </div>

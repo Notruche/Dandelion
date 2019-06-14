@@ -387,9 +387,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     this.$nextTick(this.pinContainerScene);
@@ -421,6 +418,74 @@ __webpack_require__.r(__webpack_exports__);
       this.$ksvuescr.$emit("destroy");
     }
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "app",
+  data: function data() {
+    return {};
+  },
+  methods: {}
 });
 
 /***/ }),
@@ -42137,7 +42202,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page1.png */ "./resources/js/views/assets/img/chapitre2/page1.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page1.png */ "./resources/js/views/assets/img/chapitre2/2page1.png"),
                 alt: "imgfin"
               }
             })
@@ -42146,7 +42211,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page2.png */ "./resources/js/views/assets/img/chapitre2/page2.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page2.png */ "./resources/js/views/assets/img/chapitre2/2page2.png"),
                 alt: "imgfin"
               }
             })
@@ -42155,17 +42220,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page3.png */ "./resources/js/views/assets/img/chapitre2/page3.png"),
-                alt: "imgfin"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              staticClass: "mt-5",
-              attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page4.png */ "./resources/js/views/assets/img/chapitre2/page4.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page3.png */ "./resources/js/views/assets/img/chapitre2/2page3.png"),
                 alt: "imgfin"
               }
             })
@@ -42174,7 +42229,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page5.png */ "./resources/js/views/assets/img/chapitre2/page5.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page4.png */ "./resources/js/views/assets/img/chapitre2/2page4.png"),
                 alt: "imgfin"
               }
             })
@@ -42183,7 +42238,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page5fondu.png */ "./resources/js/views/assets/img/chapitre2/page5fondu.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page5.png */ "./resources/js/views/assets/img/chapitre2/2page5.png"),
                 alt: "imgfin"
               }
             })
@@ -42192,7 +42247,7 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page6.png */ "./resources/js/views/assets/img/chapitre2/page6.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page5fondu.png */ "./resources/js/views/assets/img/chapitre2/2page5fondu.png"),
                 alt: "imgfin"
               }
             })
@@ -42201,7 +42256,16 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page7.png */ "./resources/js/views/assets/img/chapitre2/page7.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page6.png */ "./resources/js/views/assets/img/chapitre2/2page6.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page7.png */ "./resources/js/views/assets/img/chapitre2/2page7.png"),
                 alt: "imgfin"
               }
             })
@@ -42213,7 +42277,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticStyle: { visibility: "hidden" },
                   attrs: {
-                    src: __webpack_require__(/*! ../assets/img/chapitre2/rodeurfond.png */ "./resources/js/views/assets/img/chapitre2/rodeurfond.png"),
+                    src: __webpack_require__(/*! ../assets/img/chapitre2/2rodeurfond.png */ "./resources/js/views/assets/img/chapitre2/2rodeurfond.png"),
                     alt: "imgfin"
                   }
                 }),
@@ -42221,7 +42285,7 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "position-absolute rodefond",
                   attrs: {
-                    src: __webpack_require__(/*! ../assets/img/chapitre2/rodeurfond.png */ "./resources/js/views/assets/img/chapitre2/rodeurfond.png"),
+                    src: __webpack_require__(/*! ../assets/img/chapitre2/2rodeurfond.png */ "./resources/js/views/assets/img/chapitre2/2rodeurfond.png"),
                     alt: "imgfin"
                   }
                 }),
@@ -42229,14 +42293,14 @@ var staticRenderFns = [
                 _c("img", {
                   staticClass: "position-absolute rodeplan",
                   attrs: {
-                    src: __webpack_require__(/*! ../assets/img/chapitre2/rodeurplan.png */ "./resources/js/views/assets/img/chapitre2/rodeurplan.png"),
+                    src: __webpack_require__(/*! ../assets/img/chapitre2/2rodeurplan.png */ "./resources/js/views/assets/img/chapitre2/2rodeurplan.png"),
                     alt: "imgfin"
                   }
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticClass: "position-absolute rode",
-                  attrs: { src: __webpack_require__(/*! ../assets/img/chapitre2/rodeur.png */ "./resources/js/views/assets/img/chapitre2/rodeur.png") }
+                  attrs: { src: __webpack_require__(/*! ../assets/img/chapitre2/2rodeur.png */ "./resources/js/views/assets/img/chapitre2/2rodeur.png") }
                 })
               ])
             ])
@@ -42245,7 +42309,173 @@ var staticRenderFns = [
           _c("div", [
             _c("img", {
               attrs: {
-                src: __webpack_require__(/*! ../assets/img/chapitre2/page8.png */ "./resources/js/views/assets/img/chapitre2/page8.png"),
+                src: __webpack_require__(/*! ../assets/img/chapitre2/2page8.png */ "./resources/js/views/assets/img/chapitre2/2page8.png"),
+                alt: "imgfin"
+              }
+            })
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "app" } }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "un row d-flex container-fluid justify-content-center p-0 m-0"
+        },
+        [
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page1.png */ "./resources/js/views/assets/img/chapitre3/3page1.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page2.png */ "./resources/js/views/assets/img/chapitre3/3page2.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page3.png */ "./resources/js/views/assets/img/chapitre3/3page3.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page4.png */ "./resources/js/views/assets/img/chapitre3/3page4.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page5.png */ "./resources/js/views/assets/img/chapitre3/3page5.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page6.png */ "./resources/js/views/assets/img/chapitre3/3page6.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page7.png */ "./resources/js/views/assets/img/chapitre3/3page7.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page8.png */ "./resources/js/views/assets/img/chapitre3/3page8.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page9.png */ "./resources/js/views/assets/img/chapitre3/3page9.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page10.png */ "./resources/js/views/assets/img/chapitre3/3page10.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page11.png */ "./resources/js/views/assets/img/chapitre3/3page11.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page12.png */ "./resources/js/views/assets/img/chapitre3/3page12.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page13.png */ "./resources/js/views/assets/img/chapitre3/3page13.png"),
+                alt: "imgfin"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("img", {
+              attrs: {
+                src: __webpack_require__(/*! ../assets/img/chapitre3/3page14.png */ "./resources/js/views/assets/img/chapitre3/3page14.png"),
                 alt: "imgfin"
               }
             })
@@ -57043,8 +57273,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ks_vue_scrollmagic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(ks_vue_scrollmagic__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _views_chapters_chapt1__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/chapters/chapt1 */ "./resources/js/views/chapters/chapt1.vue");
 /* harmony import */ var _views_chapters_chapt2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/chapters/chapt2 */ "./resources/js/views/chapters/chapt2.vue");
-/* harmony import */ var _public_css_app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../public/css/app.css */ "./public/css/app.css");
-/* harmony import */ var _public_css_app_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_css_app_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _views_chapters_chapt3__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/chapters/chapt3 */ "./resources/js/views/chapters/chapt3.vue");
+/* harmony import */ var _public_css_app_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../public/css/app.css */ "./public/css/app.css");
+/* harmony import */ var _public_css_app_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_css_app_css__WEBPACK_IMPORTED_MODULE_7__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -57084,6 +57315,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(ks_vue_scrollmagic__WEBPACK_IMPOR
 
 
 
+
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
   routes: [{
@@ -57094,6 +57326,10 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     path: 'chapitres/2',
     name: 'chapt2',
     component: _views_chapters_chapt2__WEBPACK_IMPORTED_MODULE_5__["default"]
+  }, {
+    path: 'chapitres/3',
+    name: 'chapt3',
+    component: _views_chapters_chapt3__WEBPACK_IMPORTED_MODULE_6__["default"]
   }]
 });
 var chapt1 = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
@@ -57107,6 +57343,13 @@ var chapt2 = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   components: {
     Chapt2: _views_chapters_chapt2__WEBPACK_IMPORTED_MODULE_5__["default"]
+  },
+  router: router
+});
+var chapt3 = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+  el: '#app',
+  components: {
+    Chapt3: _views_chapters_chapt3__WEBPACK_IMPORTED_MODULE_6__["default"]
   },
   router: router
 });
@@ -57523,135 +57766,289 @@ module.exports = "/images/un-ami-est-en-train-d'écrire.gif?0a4eacb43a7fe822c473
 
 /***/ }),
 
-/***/ "./resources/js/views/assets/img/chapitre2/page1.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page1.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page1.png?84596d0eb4ac8a2ac99c4f3904f4349e";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page2.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page2.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page2.png?db07838bad612506fa8fcd5744d0a7e1";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page3.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page3.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page3.png?5fe0996c8b66f73e1933b50fdb48cd97";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page4.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page4.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page4.png?ec0ec986a198389c865b4dbdbeec1699";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page5.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page5.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page5.png?f87e128795b725197e47f2fbba69a4a4";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page5fondu.png":
-/*!****************************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page5fondu.png ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page5fondu.png?380a547ba0c5d852083493ea3622bc5f";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page6.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page6.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page6.png?a60e9f720fd04da9b46a8979057ccad4";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page7.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page7.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page7.png?f96069d2393e428dff6f88a84b0e74d3";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/page8.png":
-/*!***********************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/page8.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/page8.png?bcc89eb29e1071a8d0978620bbae9ed8";
-
-/***/ }),
-
-/***/ "./resources/js/views/assets/img/chapitre2/rodeur.png":
+/***/ "./resources/js/views/assets/img/chapitre2/2page1.png":
 /*!************************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/rodeur.png ***!
+  !*** ./resources/js/views/assets/img/chapitre2/2page1.png ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/rodeur.png?db0ad9becea0a98152b948dc91fd1ad5";
+module.exports = "/images/2page1.png?84596d0eb4ac8a2ac99c4f3904f4349e";
 
 /***/ }),
 
-/***/ "./resources/js/views/assets/img/chapitre2/rodeurfond.png":
-/*!****************************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/rodeurfond.png ***!
-  \****************************************************************/
+/***/ "./resources/js/views/assets/img/chapitre2/2page2.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page2.png ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/rodeurfond.png?c8e8950dd5f8c9d5c3b303a3f00f6801";
+module.exports = "/images/2page2.png?db07838bad612506fa8fcd5744d0a7e1";
 
 /***/ }),
 
-/***/ "./resources/js/views/assets/img/chapitre2/rodeurplan.png":
-/*!****************************************************************!*\
-  !*** ./resources/js/views/assets/img/chapitre2/rodeurplan.png ***!
-  \****************************************************************/
+/***/ "./resources/js/views/assets/img/chapitre2/2page3.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page3.png ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/rodeurplan.png?c17de09700ce770e582339b489a7e37a";
+module.exports = "/images/2page3.png?5fe0996c8b66f73e1933b50fdb48cd97";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page4.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page4.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page4.png?ec0ec986a198389c865b4dbdbeec1699";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page5.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page5.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page5.png?f87e128795b725197e47f2fbba69a4a4";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page5fondu.png":
+/*!*****************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page5fondu.png ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page5fondu.png?380a547ba0c5d852083493ea3622bc5f";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page6.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page6.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page6.png?a60e9f720fd04da9b46a8979057ccad4";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page7.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page7.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page7.png?f96069d2393e428dff6f88a84b0e74d3";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2page8.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2page8.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2page8.png?bcc89eb29e1071a8d0978620bbae9ed8";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2rodeur.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2rodeur.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2rodeur.png?db0ad9becea0a98152b948dc91fd1ad5";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2rodeurfond.png":
+/*!*****************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2rodeurfond.png ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2rodeurfond.png?c8e8950dd5f8c9d5c3b303a3f00f6801";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre2/2rodeurplan.png":
+/*!*****************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre2/2rodeurplan.png ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/2rodeurplan.png?c17de09700ce770e582339b489a7e37a";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page1.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page1.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page1.png?c90923fc68138b69a6f5aecde7264c50";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page10.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page10.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page10.png?6d4d73deb2071060b03cfcd1331805d7";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page11.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page11.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page11.png?d242d37ea8cf004826e0e9e5a9e0cc5c";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page12.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page12.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page12.png?7714066ba541adc23f5c27b0a97357e8";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page13.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page13.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page13.png?63e9ce93e65ae8366818d2018ab5fad8";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page14.png":
+/*!*************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page14.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page14.png?40c255b364b3580a25efc82a31f44ffb";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page2.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page2.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page2.png?e4bd1083bfd7e734c5ddc63fd21748b2";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page3.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page3.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page3.png?73e72d8e4bd5a7cefcf7ffa187bf762b";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page4.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page4.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page4.png?c72f520c78a7ee962a7205f8e07cc8df";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page5.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page5.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page5.png?143c855f6462a25e785c80ef562c9b03";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page6.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page6.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page6.png?da9be14dedff1d7b370aed75b26a6f1f";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page7.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page7.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page7.png?1d7559d890701f1ebc76ae5aa9410051";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page8.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page8.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page8.png?58ae6fd57db945d17112b19d33b9c9cb";
+
+/***/ }),
+
+/***/ "./resources/js/views/assets/img/chapitre3/3page9.png":
+/*!************************************************************!*\
+  !*** ./resources/js/views/assets/img/chapitre3/3page9.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/3page9.png?271fe7f1f72e02d563e88625dd3c7471";
 
 /***/ }),
 
@@ -57788,6 +58185,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt2_vue_vue_type_template_id_8f399a68___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt2_vue_vue_type_template_id_8f399a68___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/chapters/chapt3.vue":
+/*!************************************************!*\
+  !*** ./resources/js/views/chapters/chapt3.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./chapt3.vue?vue&type=template&id=8f1d6b66& */ "./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66&");
+/* harmony import */ var _chapt3_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chapt3.vue?vue&type=script&lang=js& */ "./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _chapt3_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/chapters/chapt3.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt3_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./chapt3.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/chapters/chapt3.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt3_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./chapt3.vue?vue&type=template&id=8f1d6b66& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/chapters/chapt3.vue?vue&type=template&id=8f1d6b66&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_chapt3_vue_vue_type_template_id_8f1d6b66___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

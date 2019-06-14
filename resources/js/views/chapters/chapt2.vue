@@ -2,56 +2,53 @@
   <div id="app">
     <div class="un row d-flex container-fluid justify-content-center p-0 m-0">
       <div>
-        <img src="../assets/img/chapitre2/page1.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page1.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page2.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page2.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page3.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page3.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page4.png" alt="imgfin" class="mt-5">
+        <img src="../assets/img/chapitre2/2page4.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page5.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page5.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page5fondu.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page5fondu.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page6.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page6.png" alt="imgfin">
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page7.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page7.png" alt="imgfin">
       </div>
       <div class="anim">
         <div style="height:100vh;width:98vw">
           <div class="position-relative rodecont">
             <img
               style="visibility:hidden"
-              src="../assets/img/chapitre2/rodeurfond.png"
+              src="../assets/img/chapitre2/2rodeurfond.png"
               alt="imgfin"
             >
             <img
               class="position-absolute rodefond"
-              src="../assets/img/chapitre2/rodeurfond.png"
+              src="../assets/img/chapitre2/2rodeurfond.png"
               alt="imgfin"
             >
             <img
               class="position-absolute rodeplan"
-              src="../assets/img/chapitre2/rodeurplan.png"
+              src="../assets/img/chapitre2/2rodeurplan.png"
               alt="imgfin"
             >
-            <img
-              class="position-absolute rode"
-              src="../assets/img/chapitre2/rodeur.png"
-            >
+            <img class="position-absolute rode" src="../assets/img/chapitre2/2rodeur.png">
           </div>
         </div>
       </div>
       <div>
-        <img src="../assets/img/chapitre2/page8.png" alt="imgfin">
+        <img src="../assets/img/chapitre2/2page8.png" alt="imgfin">
       </div>
     </div>
   </div>

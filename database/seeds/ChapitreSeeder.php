@@ -21,7 +21,14 @@ class ChapitreSeeder extends Seeder
         Chapitre::create([
 
             'num' => "2",
-            'image' => "images/episode1.png",
+            'image' => "images/episode2.png",
+
+            ]);
+
+        Chapitre::create([
+
+            'num' => "3",
+            'image' => "images/episode3.png",
 
             ]);
     }
