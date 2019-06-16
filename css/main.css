@@ -67,12 +67,18 @@ body {
 
 @media screen and (Max-width: 1024px) {
   [alt="nav2"] {
-    max-width: 170%;
+    max-width: 110%;
   }
 }
 
 [alt="nav3"] {
   max-width: 90%;
+}
+
+@media screen and (Max-width: 1024px) {
+  [alt="nav3"] {
+    max-width: 100%;
+  }
 }
 
 [alt="img"] {
