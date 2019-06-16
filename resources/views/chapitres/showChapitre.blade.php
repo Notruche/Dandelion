@@ -6,36 +6,36 @@
         >
           <div class="col-2" style="position:relative">
               <a href="{{route('showChapitre',['id'=> 1])}}">
-              <img src="{{asset('images/1er épisode.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/1er épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
           <div class="col-2" style="position:relative">
             @if($chapt->num=="1")
             <a href="{{route('showChapitre',['id'=> 1])}}">
-              <img src="{{asset('images/épisode précédent.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
             @if($chapt->num!=="1")
             <a href="{{route('showChapitre',['id'=> $chapt->id -1])}}">
-              <img src="{{asset('images/épisode précédent.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
           </div>
           <div class="col-2" style="position:relative">
             @if($chapt->num=="3")
             <a href="{{route('showChapitre',['id'=> 3])}}">
-              <img src="{{asset('images/épisode suivant.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
             @if($chapt->num!=="3")
             <a href="{{route('showChapitre',['id'=> $chapt->id +1])}}">
-              <img src="{{asset('images/épisode suivant.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
           </div>
           <div class="col-2" style="position:relative">
               <a href="{{route('showChapitre',['id'=> 3])}}">
-              <img src="{{asset('images/dernier épisode.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
         </div>
@@ -75,36 +75,36 @@
         >
           <div class="col-2" style="position:relative">
               <a href="{{route('showChapitre',['id'=> 1])}}">
-              <img src="{{asset('images/1er épisode.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/1er épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
           <div class="col-2" style="position:relative">
             @if($chapt->num=="1")
             <a href="{{route('showChapitre',['id'=> 1])}}">
-              <img src="{{asset('images/épisode précédent.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
             @if($chapt->num!=="1")
             <a href="{{route('showChapitre',['id'=> $chapt->id -1])}}">
-              <img src="{{asset('images/épisode précédent.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode précédent.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
           </div>
           <div class="col-2" style="position:relative">
             @if($chapt->num=="3")
             <a href="{{route('showChapitre',['id'=> 3])}}">
-              <img src="{{asset('images/épisode suivant.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
             @if($chapt->num!=="3")
             <a href="{{route('showChapitre',['id'=> $chapt->id +1])}}">
-              <img src="{{asset('images/épisode suivant.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/épisode suivant.png')}}" alt="nav" style="position:absolute">
             </a>
             @endif
           </div>
           <div class="col-2" style="position:relative">
               <a href="{{route('showChapitre',['id'=> 3])}}">
-              <img src="{{asset('images/dernier épisode.png')}}" alt="nav3" style="position:absolute">
+              <img src="{{asset('images/dernier épisode.png')}}" alt="nav" style="position:absolute">
             </a>
           </div>
         </div>

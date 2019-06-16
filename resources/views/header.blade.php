@@ -33,7 +33,7 @@
               </a>
           @else
           <a href="{{route('login')}}">
-              <img src="{{asset('images/connection.png')}}" alt="nav2">
+              <img src="{{asset('images/connection.png')}}" alt="nav">
             </a>
           @endif
         </div>
