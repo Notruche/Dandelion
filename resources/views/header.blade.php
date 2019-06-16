@@ -15,7 +15,7 @@
       <div class="exemple">
       <img src="{{asset('images/bannière.png')}}" alt="bann">
   </div>
-      <div class="row pt-3 pb-3 container-fluid m-0 navi d-flex justify-content-between">
+      <div class="row pt-3 pb-3 container-fluid m-0 navi d-flex justify-content-between pr-3 pl-0">
         <div class="col-3">
           <a href="{{route('home')}}">
             <img src="{{asset('images/acceuil.png')}}" alt="nav">
@@ -33,7 +33,7 @@
               </a>
           @else
           <a href="{{route('login')}}">
-              <img src="{{asset('images/connection.png')}}" alt="nav">
+              <img src="{{asset('images/connection.png')}}" alt="nav2">
             </a>
           @endif
         </div>

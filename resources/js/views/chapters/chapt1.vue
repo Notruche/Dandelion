@@ -103,7 +103,7 @@
       <div>
         <img src="../assets/img/chapitre1/p18 case2.png" alt="imgfin">
       </div>
-      <div>
+      <div style="margin-top:15%">
         <img src="../assets/img/chapitre1/p20 case1.png" alt="imgfin">
       </div>
       <div style="position:relative">
