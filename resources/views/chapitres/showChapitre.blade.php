@@ -115,8 +115,8 @@
         @else
         <div class="position-relative text-center text-white">
             <img src="{{asset('images/sondage1fini.png')}}" alt="imgfin">
-            <h5 style="position:absolute;top:50%;width:100%">
-                Pour participer au sondage, <a href="{{ route('login') }}">connectez-vous</a> ou <a href="{{ route('register') }}">inscrivez-vous</a></h5>
+            <h2 style="position:absolute;top:50%;width:100%">
+                Pour participer au sondage, <a href="{{ route('login') }}">connectez-vous</a> ou <a href="{{ route('register') }}">inscrivez-vous</a></h2>
         </div>
           @endif
           <div class="m-4 mb-0 text-center text-white">
