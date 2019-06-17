@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("../../public/css/stylesheet.css");
 body {
   background-color: black;
 }
@@ -36,6 +37,10 @@ body {
   .texteprofil {
     font-size: 100%;
   }
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: 'spoontypespoontype' !important;
 }
 
 [alt="bann"] {
@@ -131,12 +136,6 @@ body {
 
 [alt="imgcom"] {
   max-width: 100%;
-}
-
-@media screen and (Max-width: 1024px) {
-  [alt="imgcom"] {
-    padding-left: 2%;
-  }
 }
 
 [alt="fond"] {

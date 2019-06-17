@@ -13,7 +13,9 @@
 <div class="menu">
     <div>
       <div class="exemple">
+          <a href="{{route('home')}}">
       <img src="{{asset('images/bannière.png')}}" alt="bann">
+          </a>
   </div>
       <div class="row pt-3 pb-3 container-fluid m-0 navi d-flex justify-content-between pr-3 pl-0">
         <div class="col-3">

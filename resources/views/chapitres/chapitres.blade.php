@@ -8,7 +8,7 @@
                 <div class="col-4 row container-fluid">
                         <a href="{{route('showChapitre',['id'=> $item->id])}}">
                     <div class="col-12"><img src="{{asset($item->image)}}" alt="" style="max-width:100%"></div>
-                    <h5 class="col-12 text-center">Épisode {{$item->num}}</h5>
+                    <h3 class="col-12 text-center">Épisode {{$item->num}}</h3>
                 </a>
                 </div>
             
