@@ -5,6 +5,7 @@
 @font-face {
     font-family: 'spoontypespoontype';
     src: url(/fonts/spoontype-webfont.woff2?3885789b118086a75d242fb9a9c7a711) format('woff2'),
+         url(/fonts/spoontype.ttf?f4337a405f718a331fd2f972a7c9edf5) format('truetype'),
          url(/fonts/spoontype-webfont.woff?904846f53c889ce1afa928d3a40f60be) format('woff');
     font-weight: normal;
     font-style: normal;
