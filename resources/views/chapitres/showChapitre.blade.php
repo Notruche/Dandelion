@@ -199,7 +199,7 @@
             <button type="submit"> Envoyer </button>
             </form>
         @else
-        <h4>Pour laisser un commentaire, <a href="{{ route('login') }}">connectez-vous</a> ou <a href="{{ route('register') }}">inscrivez-vous</a> </h4>
+        <h3>Pour laisser un commentaire, <a href="{{ route('login') }}">connectez-vous</a> ou <a href="{{ route('register') }}">inscrivez-vous</a> </h3>
         @endif
         
         </div>

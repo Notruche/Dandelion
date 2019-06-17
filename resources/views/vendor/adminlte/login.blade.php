@@ -42,7 +42,7 @@
                 @if (config('adminlte.register_url', 'register'))
                     <a href="{{ url(config('adminlte.register_url', 'register')) }}"
                        class="text-center"
-                    >Créer un compte</a>
+                    ><h3 class="mt-2">Créer un compte</h3></a>
                 @endif
             </div>
         </div>
