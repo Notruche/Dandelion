@@ -192,6 +192,7 @@ export default {
     },
     comment: function() {
       var that = this;
+      console.log("lance")
       setTimeout(function() {
         that.com1 = true;
         setTimeout(function() {
@@ -204,11 +205,11 @@ export default {
             }, 6000);
           }, 6000);
         }, 6000);
-      }, 12000);
+      }, 6000);
     }
   },
   created: function() {
-    this.comment();
+    this.$nextTick(this.comment);
   }
 };
 </script>
