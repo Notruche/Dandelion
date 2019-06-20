@@ -42,6 +42,12 @@ Vue.use(BootstrapVue)
 Vue.use(VueRouter)
 Vue.use(KsVueScrollmagic)
 
+
+window.Vue = require('vue');
+
+Vue.component('example-component', 
+  require('./components/ExampleComponent.vue'));
+
 import Chapt1 from './views/chapters/chapt1'
 import Chapt2 from './views/chapters/chapt2'
 import Chapt3 from './views/chapters/chapt3'

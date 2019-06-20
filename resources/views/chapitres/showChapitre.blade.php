@@ -124,6 +124,23 @@
           </div>
         @endif
 
+
+        @if($chapt->num=="3")
+        @if (Auth::check())
+        <div class="position-relative">
+        <img src="{{asset('images/sondage-EP3.png')}}" alt="imgfin">
+        @else
+        <div class="position-relative text-center text-white">
+            <img src="{{asset('images/sondage3fini.png')}}" alt="imgfin">
+            <h2 style="position:absolute;top:50%;width:100%">
+                Pour participer au sondage, <a href="{{ route('login') }}">connectez-vous</a> ou <a href="{{ route('register') }}">inscrivez-vous</a></h2>
+        </div>
+          @endif
+          <div class="m-4 mb-0 text-center text-white">
+            <h3> Lors des sondages, vous incarnez les habitants de camping qui votent pour prendre une décision qui influencera sur la suite de l'histoire. Vous n'avez qu'une voix alors choisissez bien !</h3>
+          </div>
+        @endif
+
         <div
         class="row d-flex justify-content-center mt-3 pt-2 pb-5 container-fluid mr-0 ml-0"
         style="margin-bottom:5%"

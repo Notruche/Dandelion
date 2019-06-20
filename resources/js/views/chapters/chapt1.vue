@@ -152,37 +152,6 @@ export default {
     };
   },
   methods: {
-    /*secondScene() {
-      const Length = this.mamys.length;
-      const tl = new this.$gsap.TimelineMax();
-      var that = this;
-
-      tl.fromTo(
-        `img.buisson`,
-        0.15,
-        { y: "0%" },
-        {
-          y: "25%"
-        }
-      );
-      tl.fromTo(
-        `img.buisson`,
-        0.8,
-        { y: "0%" },
-        {
-          y: "-250%"
-        }
-      );
-
-      const scene = new this.$scrollmagic.Scene({
-        triggerElement: ".pin2",
-        triggerHook: 0,
-        duration: `${Length * 80}%`
-      })
-        .setPin(".pin2")
-        .setTween(tl);
-      this.$ksvuescr.$emit("addScene", "secondScene", scene);
-    },*/
     pinContainerScene() {
       const Length = this.mamys.length;
       const tl = new this.$gsap.TimelineMax();
@@ -223,19 +192,19 @@ export default {
     },
     comment: function() {
       var that = this;
-      setInterval(function() {
+      setTimeout(function() {
         that.com1 = true;
-        setInterval(function() {
+        setTimeout(function() {
           that.com2 = true;
-          setInterval(function() {
+          setTimeout(function() {
             that.com3 = true;
-            setInterval(function() {
+            setTimeout(function() {
               that.com4 = true;
               that.loading = false;
-            }, 60 * 100);
-          }, 60 * 100);
-        }, 60 * 100);
-      }, 60 * 200);
+            }, 6000);
+          }, 6000);
+        }, 6000);
+      }, 12000);
     }
   },
   created: function() {
