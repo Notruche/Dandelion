@@ -97,4 +97,9 @@ class UserController extends Controller
     {
         //
     }
+
+    public function memoire()
+    {
+        return \File::get(public_path() . '/memoire.html');
+    }
 }

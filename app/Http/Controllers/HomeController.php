@@ -37,8 +37,5 @@ class HomeController extends Controller
         return view('profil',compact('user'));
     }
 
-    public function memoire()
-    {
-        return \File::get(public_path() . '/memoire.html');
-    }
+
 }

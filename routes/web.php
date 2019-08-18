@@ -23,7 +23,7 @@ Route::get('/home', 'UserController@index')->name('home');
 
 Route::get('/profil', 'HomeController@profil')->name('profil');
 
-Route::get('/memoire', 'HomeController@memoire')->name('memoire');
+Route::get('/memoire', 'UserController@memoire')->name('memoire');
 
 Route::get('/chapitres', 'ChapitreController@index')->name('chapitre');
 
