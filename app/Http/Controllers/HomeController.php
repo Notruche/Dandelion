@@ -36,4 +36,9 @@ class HomeController extends Controller
         $user = Auth::user();
         return view('profil',compact('user'));
     }
+
+    public function memoire()
+    {
+        return \File::get(public_path() . '/memoire.html');
+    }
 }
