@@ -23,7 +23,13 @@ Route::get('/home', 'UserController@index')->name('home');
 
 Route::get('/profil', 'HomeController@profil')->name('profil');
 
+Route::get('/boucho', 'UserController@boucho')->name('boucho');
+
+Route::get('/portfolio', 'UserController@portfolio')->name('portfolio');
+
 Route::get('/memoire', 'UserController@memoire')->name('memoire');
+
+Route::get('/rubiks', 'UserController@rubiks')->name('rubiks');
 
 Route::get('/chapitres', 'ChapitreController@index')->name('chapitre');
 

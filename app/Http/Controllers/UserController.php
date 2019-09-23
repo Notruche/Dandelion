@@ -102,4 +102,19 @@ class UserController extends Controller
     {
         return \File::get(public_path() . '/memoire.html');
     }
+
+    public function rubiks()
+    {
+        return \File::get(public_path() . '/rubiks.html');
+    }
+
+    public function boucho()
+    {
+        return \File::get(public_path() . '/boucho.html');
+    }
+
+    public function portfolio()
+    {
+        return \File::get(public_path() . '/portfolio.html');
+    }
 }
