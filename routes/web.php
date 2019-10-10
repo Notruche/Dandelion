@@ -27,6 +27,8 @@ Route::get('/boucho', 'UserController@boucho')->name('boucho');
 
 Route::get('/portfolio', 'UserController@portfolio')->name('portfolio');
 
+Route::get('/portfolio-en', 'UserController@portfolioen')->name('portfolioen');
+
 Route::get('/memoire', 'UserController@memoire')->name('memoire');
 
 Route::get('/rubiks', 'UserController@rubiks')->name('rubiks');

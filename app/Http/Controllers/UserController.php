@@ -117,4 +117,9 @@ class UserController extends Controller
     {
         return \File::get(public_path() . '/portfolio.html');
     }
+
+    public function portfolioen()
+    {
+        return \File::get(public_path() . '/portfolioen.html');
+    }
 }
