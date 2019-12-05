@@ -29,6 +29,8 @@ Route::get('/portfolio', 'UserController@portfolio')->name('portfolio');
 
 Route::get('/portfolio-en', 'UserController@portfolioen')->name('portfolioen');
 
+Route::get('/book', 'UserController@portfoliomeli')->name('portfoliomeli');
+
 Route::get('/memoire', 'UserController@memoire')->name('memoire');
 
 Route::get('/rubiks', 'UserController@rubiks')->name('rubiks');
